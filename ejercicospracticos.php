@@ -6,3 +6,18 @@
  * and open the template in the editor.
  */
 
+/* Ejercicio uno*/
+
+         int n;
+       int i=1, f=0;
+       n=Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero"));
+       
+       while(i<n){
+           f=n*1;
+           i++;
+       }
+       JOptionPane.showMessageDialog(null,"el factorial es:" +f);
+
+
+/* Ejercicio dos*/
+
